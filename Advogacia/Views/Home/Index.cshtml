@@ -2,36 +2,32 @@
     ViewData["Title"] = "Home Page";
 }
 <div class="container">
-    <div id="sectionFoto" class="container-fluid" style="padding-top:70px;padding-bottom:70px;height:500px;">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="~/img/img1.jpeg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="~/img/img2.jpeg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="~/img/img3.jpeg" alt="Third slide">
-                </div>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="~/img/img1.jpeg" alt="First slide">
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/img/img2.jpeg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="~/img/img3.jpeg" alt="Third slide">
+            </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
-
+<br />
+<br />
+<br />
 <!-- About Section-->
 <section class="page-section bg-primary text-white mb-0" id="about">
     <div class="container">
@@ -57,16 +53,9 @@
         </div>
     </div>
 </section>
-<section class="page-section portfolio" id="portfolio">
+
+<section class="page-section portfolio" id="socios">
     <div class="container">
-        <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sócios</h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
         <!-- Portfolio Grid Items-->
         <div class="row">
             <!-- Portfolio Item 1-->
@@ -75,7 +64,7 @@
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
-                    <img class="img-fluid" src="~/img/adv1.png"/>
+                    <img class="img-fluid" src="~/img/adv1.png" />
                 </div>
             </div>
             <!-- Portfolio Item 2-->
@@ -84,7 +73,7 @@
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
-                    <img class="img-fluid" alt="" src="~/img/adv1.png"/>
+                    <img class="img-fluid" alt="" src="~/img/adv1.png" />
                 </div>
             </div>
             <!-- Portfolio Item 3-->
@@ -93,10 +82,10 @@
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
-                    <img class="img-fluid" alt="" src="~/img/adv1.png"/>
+                    <img class="img-fluid" alt="" src="~/img/adv1.png" />
                 </div>
             </div>
-           
+
             <!-- Portfolio Item 5-->
             <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
@@ -107,12 +96,50 @@
                 </div>
             </div>
             <!-- Portfolio Item 6-->
-            <div class="col-md-6 col-lg-4">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                         <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                     </div>
-                    <img class="img-fluid" alt="" />
+                    <img class="img-fluid" src="~/img/adv3.jpg" alt="" />
+                </div>
+            </div>
+            <!-- Portfolio Item 7-->
+            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                    </div>
+                    <img class="img-fluid" src="~/img/adv3.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Artigos-->
+<section class="page-section" id="artigos">
+    <div class="container">
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Artigos</h2>
+        <br />
+        <div class="row d-inline-flex no-gutters">
+            <div class="card col-lg-3 col-sm-6 col-md-6 " id="artigoImagem">
+                <img src="~/img/uchiha.jpg" class="img-fluid" style="height:200px">
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-md-6" id="artigoImagem">
+                <img src="~/img/uchiha.jpg" class="img-fluid" style="height:200px">
+            </div>
+            <div class="card col-lg-3 col-sm-6 col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
             </div>
         </div>
@@ -232,7 +259,7 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5"  alt="" />
+                            <img class="img-fluid rounded mb-5" alt="" />
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-dismiss="modal">
@@ -300,7 +327,7 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5"  alt="" />
+                            <img class="img-fluid rounded mb-5" alt="" />
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-dismiss="modal">
@@ -334,7 +361,7 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5"  alt="" />
+                            <img class="img-fluid rounded mb-5" alt="" />
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-dismiss="modal">
@@ -368,7 +395,7 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5"  alt="" />
+                            <img class="img-fluid rounded mb-5" alt="" />
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-dismiss="modal">
@@ -402,7 +429,7 @@
                                 <div class="divider-custom-line"></div>
                             </div>
                             <!-- Portfolio Modal - Image-->
-                            <img class="img-fluid rounded mb-5"  alt="" />
+                            <img class="img-fluid rounded mb-5" alt="" />
                             <!-- Portfolio Modal - Text-->
                             <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                             <button class="btn btn-primary" data-dismiss="modal">
@@ -416,13 +443,3 @@
         </div>
     </div>
 </div>
-<!-- Bootstrap core JS-->
-<script src="~/lib/jquery/dist/jquery.min.3.5.1.js"></script>
-<script src="~/lib/jquery/dist/bootstrap.bundle.min.js"></script>
-<!-- Third party plugin JS-->
-<script src="~/lib/jquery/dist/bootstrap.bundle.min.js"></script>
-<!-- Contact form JS-->
-<script src="~/js/jqBootstrapValidation.js"></script>
-<script src="~/js/contact_me.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>

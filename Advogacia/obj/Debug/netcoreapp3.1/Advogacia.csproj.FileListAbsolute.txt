@@ -453,3 +453,4 @@ C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\staticwe
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.dll
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.pdb
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.genruntimeconfig.cache
+C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.csprojAssemblyReference.cache
