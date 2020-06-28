@@ -1,0 +1,15 @@
+﻿#mainNav {
+   
+}
+a:hover {
+    color:midnightblue;
+}
+footer {
+    background-color: black;
+}
+#header{
+    background-image:url('../img/wallpaper.jpg');
+}
+body {
+    background-color: whitesmoke;
+}

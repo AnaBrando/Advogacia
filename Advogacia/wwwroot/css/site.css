@@ -10,6 +10,10 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+.card{
+    border:none;
+}
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -19,12 +23,12 @@
     --orange: #fd7e14;
     --yellow: #ffc107;
     --green: #28a745;
-    --teal: #1abc9c;
+    --teal: black;
     --cyan: #17a2b8;
     --white: #fff;
     --gray: #6c757d;
     --gray-dark: #343a40;
-    --primary: #1abc9c;
+    --primary: black;
     --secondary: #2c3e50;
     --success: #28a745;
     --info: #17a2b8;
@@ -159,7 +163,7 @@ sup {
 }
 
 a {
-    color: #1abc9c;
+    color: black;
     text-decoration: none;
     background-color: transparent;
 }
@@ -2573,8 +2577,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: black;
+    border-color: black;
 }
 
     .btn-primary:hover {
@@ -2592,8 +2596,8 @@ fieldset:disabled a.btn {
 
     .btn-primary.disabled, .btn-primary:disabled {
         color: #fff;
-        background-color: #1abc9c;
-        border-color: #1abc9c;
+        background-color: black;
+        border-color: black;
     }
 
     .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
@@ -2852,14 +2856,14 @@ fieldset:disabled a.btn {
         }
 
 .btn-outline-primary {
-    color: #1abc9c;
-    border-color: #1abc9c;
+    color: black;
+    border-color: black;
 }
 
     .btn-outline-primary:hover {
         color: #fff;
-        background-color: #1abc9c;
-        border-color: #1abc9c;
+        background-color: black;
+        border-color: black;
     }
 
     .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2867,14 +2871,14 @@ fieldset:disabled a.btn {
     }
 
     .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-        color: #1abc9c;
+        color: black;
         background-color: transparent;
     }
 
     .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
         color: #fff;
-        background-color: #1abc9c;
-        border-color: #1abc9c;
+        background-color: black;
+        border-color: black;
     }
 
         .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-outline-primary.dropdown-toggle:focus {
@@ -3093,7 +3097,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
     font-weight: 400;
-    color: #1abc9c;
+    color: black;
     text-decoration: none;
 }
 
@@ -3395,7 +3399,7 @@ input[type=button].btn-block {
     .dropdown-item.active, .dropdown-item:active {
         color: #fff;
         text-decoration: none;
-        background-color: #1abc9c;
+        background-color: black;
     }
 
     .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3749,8 +3753,8 @@ input[type=button].btn-block {
 
     .custom-control-input:checked ~ .custom-control-label::before {
         color: #fff;
-        border-color: #1abc9c;
-        background-color: #1abc9c;
+        border-color: black;
+        background-color: black;
     }
 
     .custom-control-input:focus ~ .custom-control-label::before {
@@ -3814,8 +3818,8 @@ input[type=button].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-    border-color: #1abc9c;
-    background-color: #1abc9c;
+    border-color: black;
+    background-color: black;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -4044,7 +4048,7 @@ input[type=button].btn-block {
         width: 1rem;
         height: 1rem;
         margin-top: -0.25rem;
-        background-color: #1abc9c;
+        background-color: black;
         border: 0;
         border-radius: 1rem;
         -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4077,7 +4081,7 @@ input[type=button].btn-block {
 .custom-range::-moz-range-thumb {
     width: 1rem;
     height: 1rem;
-    background-color: #1abc9c;
+    background-color: black;
     border: 0;
     border-radius: 1rem;
     -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4113,7 +4117,7 @@ input[type=button].btn-block {
     margin-top: 0;
     margin-right: 0.2rem;
     margin-left: 0.2rem;
-    background-color: #1abc9c;
+    background-color: black;
     border: 0;
     border-radius: 1rem;
     -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4254,7 +4258,7 @@ input[type=button].btn-block {
     .nav-pills .nav-link.active,
     .nav-pills .show > .nav-link {
         color: #fff;
-        background-color: #1abc9c;
+        background-color: black;
     }
 
 .nav-fill .nav-item {
@@ -4993,7 +4997,7 @@ input[type=button].btn-block {
     padding: 0.5rem 0.75rem;
     margin-left: -0.125rem;
     line-height: 1.25;
-    color: #1abc9c;
+    color: black;
     background-color: #fff;
     border: 0.125rem solid #dee2e6;
 }
@@ -5026,8 +5030,8 @@ input[type=button].btn-block {
 .page-item.active .page-link {
     z-index: 3;
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: black;
+    border-color: black;
 }
 
 .page-item.disabled .page-link {
@@ -5110,7 +5114,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
     color: #fff;
-    background-color: #1abc9c;
+    background-color: black;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5425,7 +5429,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     color: #fff;
     text-align: center;
     white-space: nowrap;
-    background-color: #1abc9c;
+    background-color: black;
     transition: width 0.6s ease;
 }
 
@@ -5514,8 +5518,8 @@ a.badge-dark:focus, a.badge-dark.focus {
     .list-group-item.active {
         z-index: 2;
         color: #fff;
-        background-color: #1abc9c;
-        border-color: #1abc9c;
+        background-color: black;
+        border-color: black;
     }
 
     .list-group-item + .list-group-item {
@@ -6662,7 +6666,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-    background-color: #1abc9c !important;
+    background-color: black !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6790,7 +6794,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-    border-color: #1abc9c !important;
+    border-color: black !important;
 }
 
 .border-secondary {
@@ -10387,7 +10391,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-    color: #1abc9c !important;
+    color: black !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10695,7 +10699,7 @@ a.text-dark:hover, a.text-dark:focus {
         }
 
             #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-                color: #1abc9c;
+                color: black;
             }
 
             #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -10703,7 +10707,7 @@ a.text-dark:hover, a.text-dark:focus {
             }
 
             #mainNav .navbar-nav li.nav-item a.nav-link.active {
-                color: #1abc9c;
+                color: black;
             }
 
     #mainNav .navbar-toggler {
@@ -10729,12 +10733,12 @@ a.text-dark:hover, a.text-dark:focus {
 
             #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
                 color: #fff;
-                background: #1abc9c;
+                background: black;
             }
 
                 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
                     color: #fff;
-                    background: #1abc9c;
+                    background: #16284a;
                 }
 
         #mainNav.navbar-shrink {
@@ -10796,7 +10800,7 @@ a.text-dark:hover, a.text-dark:focus {
         left: 0;
         transition: all 0.2s ease-in-out;
         opacity: 0;
-        background-color: rgba(26, 188, 156, 0.9);
+   
     }
 
         .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -10826,7 +10830,7 @@ a.text-dark:hover, a.text-dark:focus {
     top: 1rem;
     font-size: 3rem;
     line-height: 3rem;
-    color: #1abc9c;
+    color: black;
     opacity: 1;
 }
 
@@ -10872,7 +10876,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #1abc9c;
+    color: black;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -10882,7 +10886,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #2c3e50;
+    background-color: black;
     color: #fff;
 }
 
