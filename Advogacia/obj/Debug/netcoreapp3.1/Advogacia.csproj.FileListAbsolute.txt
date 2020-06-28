@@ -386,6 +386,7 @@ C:\Users\anabr\source\repos\Advogacia\Advogacia\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\anabr\source\repos\Advogacia\Advogacia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\anabr\source\repos\Advogacia\Advogacia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\anabr\source\repos\Advogacia\Advogacia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.csprojAssemblyReference.cache
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.AssemblyInfoInputs.cache
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.AssemblyInfo.cs
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.csproj.CoreCompileInputs.cache
@@ -453,4 +454,3 @@ C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\staticwe
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.dll
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.pdb
 C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.genruntimeconfig.cache
-C:\Users\anabr\source\repos\Advogacia\Advogacia\obj\Debug\netcoreapp3.1\Advogacia.csprojAssemblyReference.cache

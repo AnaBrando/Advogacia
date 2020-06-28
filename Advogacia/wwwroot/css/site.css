@@ -10697,9 +10697,9 @@ a.text-dark:hover, a.text-dark:focus {
         #mainNav .navbar-nav li.nav-item a.nav-link {
             color: #fff;
         }
-
+      /*  links ativos*/
             #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-                color: black;
+                color: darkgray;
             }
 
             #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {

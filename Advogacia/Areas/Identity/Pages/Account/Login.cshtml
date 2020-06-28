@@ -5,29 +5,32 @@
     ViewData["Title"] = "Log in";
 }
 <style>
-    
+body { background-image: url('https://www.motaesilva.adv.br/wp-content/uploads/2020/03/Banner-05-Mota-e-Silva-Advogados-Escrit%C3%B3rio-de-Advocacia-em-Imperatriz-Maranh%C3%A3o.jpg'); }
 </style>
-<h1>@ViewData["Title"]</h1>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <div id="login">
-    <h3 class="text-center text-white pt-5">Login form</h3>
     <div class="container">
-        
             <div id="login-row" class="row justify-content-center align-items-center">
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
-                        <div class="shadow p-3 mb-5 bg-white rounded">
+                        <div class="shadow p-3 mb-5 bg-transparent rounded">
                             <form id="login-form" class="form" action="" method="post">
-                                <h3 class="text-center text-black">Login</h3>
+                                <h3 class="text-center text-white">Bem Vindo</h3>
                                 <div class="form-group">
-                                    <label for="username" class="text-black">Username:</label><br>
+                                    <label for="username" class="text-white">Username:</label><br>
                                     <input type="text" name="username" id="username" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                    <label for="password" class="text-black">Password:</label><br>
+                                    <label for="password" class="text-white">Password:</label><br>
                                     <input type="text" name="password" id="password" class="form-control">
                                 </div>
                                 <div class="col text-center">
-                                    <input type="submit" name="submit" class="btn btn-danger" value="submit">
+                                    <input type="submit" name="submit" class="btn btn-danger" value="Entrar">
                                 </div>
                                 <br /><br />
                             </form>
@@ -37,8 +40,7 @@
         </div>
     </div>
 </div>
-    
-
+    <script src="../lib/jquery/dist/jquery.min.js"></script>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

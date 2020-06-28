@@ -6,31 +6,39 @@
     <title>@ViewData["Title"] - Advogacia</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
-    <link rel="stylesheet" href="~/css/estilo.css"/>
+    <link rel="stylesheet" href="~/css/estilo.css" />
 </head>
 <body>
     <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand text-white" style="color: #19181B;" href="#page-top">titulo</a>
-            <a class="navbar-toggler js-scroll-trigger
-               navbar-toggler-right text-uppercase
-               font-weight-bold bg-white
-                rounded btn-danger"
-               data-toggle="collapse"
-               data-target="#navbarResponsive"
-               aria-controls="navbarResponsive"
-               aria-expanded="false"
-               aria-label="Toggle navigation">
-                Menu
-            </a>
+            @{
+                var y = Html.ViewData.Values.Contains("Log in");
+                if (!y)
+                {
+
+                    <a class="navbar-toggler js-scroll-trigger
+                        navbar-toggler-right text-uppercase
+                        font-weight-bold bg-white
+                        rounded btn-danger"
+                       data-toggle="collapse"
+                       data-target="#navbarResponsive"
+                       aria-controls="navbarResponsive"
+                       aria-expanded="false"
+                       aria-label="Toggle navigation">
+                        Menu
+                    </a>
+                }
+            }
+
+
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded  js-scroll-trigger" asp-controller="Home" asp-action="Index">Inicio</a></li>
+
                     @{
                         var x = Html.ViewData.Values.Contains("Log in");
                         if (!x)
                         {
-
+                            <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded  js-scroll-trigger" asp-controller="Home" asp-action="Index">Inicio</a></li>
                             <li class="nav-item mx-0 mx-lg-1 "><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Sobre</a></li>
                             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3  rounded js-scroll-trigger" href="#socios">Sócios</a></li>
                             <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3  rounded js-scroll-trigger" href="#artigos">Artigos</a></li>
@@ -75,37 +83,46 @@
         </main>
     </div>
     <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Localização</h4>
-                    <p class="lead mb-0">
-                       Rua Bacaba 776 
-                        <br />
-                       Campo Grande MS Brasil
-                    </p>
+    @{
+        var w = Html.ViewData.Values.Contains("Log in");
+        if (!w)
+        {
+            <footer class="footer text-center">
+                <div class="container">
+                    <div class="row">
+                        <!-- Footer Location-->
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Localização</h4>
+                            <p class="lead mb-0">
+                                Rua Bacaba 776
+                                <br />
+                                Campo Grande MS Brasil
+                            </p>
+                        </div>
+                        <!-- Footer Social Icons-->
+                        <div class="col-lg-4 mb-5 mb-lg-0">
+                            <h4 class="text-uppercase mb-4">Redes Sociais</h4>
+                            <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="~/img/fb.png" width="75" /></a>
+                            <a class="btn btn-outline btn-social mx-1" href="#!"><img src="~/img/instagram.png" width="55"></a>
+
+                        </div>
+                        <!-- Footer About Text-->
+                        <div class="col-lg-4">
+                            <h4 class="text-uppercase mb-4">Desenvolvedora/Analista <br />Resposável</h4>
+                            <p class="lead mb-0 text-center">
+                                Ana Paula Chaves,Analista e Desenvolvedora Web
+
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Redes Sociais</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><img src="~/img/fb.png" width="75" /></a>
-                    <a class="btn btn-outline btn-social mx-1" href="#!"><img src="~/img/instagram.png" width="55"></a>
-                   
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">About Freelancer</h4>
-                    <p class="lead mb-0 text-center">
-                        Ana Paula Chaves,Analista e Desenvolvedora Web 
-                        
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Bootstrap core JS-->
+            </footer>
+
+            <!-- Bootstrap core JS-->
+
+        }
+
+    }
     <script src="~/lib/jquery/dist/jquery-3.5.1.min.js"></script>
     <script src="~/lib/jquery/dist/bootstrap.bundle.min.js"></script>
     <script src="~/lib/jquery/jquery.easing.min.js"></script>
@@ -115,8 +132,9 @@
     <script src="~/js/jqBootstrapValidation.js"></script>
     <script src="~/js/contact_me.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <script src="js/scripts.js" asp-append-version="true"></script>
+    <script src="~/js/scripts.js"></script>
+    <script src="~/js/scripts.js"></script>
+
 
     @RenderSection("Scripts", required: false)
 </body>
